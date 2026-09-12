@@ -1,1 +1,15 @@
+html {
+  height: 100%;
+}
+body{
+  background-color: blue;
+}
+h1{color: darkpurple;
+  font-family: fantasy; 
+  font-size: 70px;}
+h2{color: yellow; 
+  font-family: Papyrus;}
+p{color: silver;}
+ul{color: silver;
+  font-weight: bold;}
 
