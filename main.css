@@ -12,4 +12,8 @@ h2{color: yellow;
 p{color: silver;}
 ul{color: silver;
   font-weight: bold;}
-
+.article {
+  margin: 16px
+  padding: 32px
+  width: 200px
+}
