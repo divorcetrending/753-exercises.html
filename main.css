@@ -2,18 +2,32 @@ html {
   height: 100%;
 }
 body{
-  background-color: blue;
+  background-color: #F1E9D2;
 }
 h1{color: darkpurple;
   font-family: fantasy; 
   font-size: 70px;}
 h2{color: yellow; 
   font-family: Papyrus;}
+img{height: 60px;}
 p{color: silver;}
 ul{color: silver;
   font-weight: bold;}
+h3{color: white;}
 .article {
-  margin: 16px
-  padding: 32px
-  width: 200px
+  margin: 16px;
+  padding: 32px;
+  width: 200px;
+  background: purple;
+  border: 20px soild white;}
+#orb{
+  border: 20px solid blue;
+}
+#spell{
+  border: 20px solid red;
+}
+#quiz{
+  border: 20px solid yellow;
+  padding: 32px;
+  background: dark purple;
 }
