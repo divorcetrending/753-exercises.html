@@ -31,3 +31,22 @@ h3{color: white;}
   padding: 32px;
   background: dark purple;
 }
+#mainnavigation ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#mainnavigation ul il {
+  padding: 8px 20px;
+  background: darkred;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+#mainnavigation ul il a:hover {
+  background-color: pink
+}
+  padding: 32px;
+  background: dark purple;
+}
