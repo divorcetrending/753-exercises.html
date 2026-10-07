@@ -35,6 +35,8 @@ h3{color: white;}
   display: flex;
   flex-direction: row;
   justify-content: center;
+  gap: 25px;
+  list-style: none;
 }
 #mainnavigation ul il {
   padding: 8px 20px;
@@ -43,6 +45,7 @@ h3{color: white;}
   font-weight: bold;
   text-decoration: none;
   text-align: center;
+  border: solid black;
 }
 #mainnavigation ul il a:hover {
   background-color: pink
