@@ -13,7 +13,16 @@ body{
   display: flex;
   flex-direction: column;
   flex-shrink: 10;
+  justify-content: center;
   margin: 30px;
+  padding: 10px;
+}
+#reg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+    margin: 20px;
 }
 h1{
   font-family: "Henny Penny";
@@ -22,13 +31,6 @@ h1{
   display: flex;
   justify-content: center;}
 
-#event{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 20px;
-  padding: 10px;
-}
 caption {
   background: beige;
   font-size: 20px;
@@ -45,22 +47,25 @@ td{
 td:hover{
   background-color: yellow;
 }
-#reg{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 10px;
-  margin: 20px;
-}
+
 h2{
   font-family: henny penny;
   padding: 10px;
   background: #00B4D5;
   border: solid black;
 }
+
 form{
   border: solid black;
   padding: 10px;
+}
+div{
+  input:focus {
+  background-color: cyan;
+}
+select:focus {
+  background-color: white;
+}
 }
 @media (width <= 600px) {
 body{
