@@ -1,0 +1,84 @@
+<!doctype html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My test page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
+<html lang="en-US">
+    <link href="style.css"rel="stylesheet"/>
+  </head>
+  <body>
+<section class="article" id="event">
+ <h1>Library Events</h1>
+    <table> 
+      <caption>Upcoming Programs</caption>
+      <head>
+        <tr>
+          <td>Program</td>
+          <td>Date</td>
+          <td>Time</td>
+          <td>Location</td>
+          <td>Audience</td>
+          <td>Details</td>
+        </tr>
+       </head>
+      <body>
+        <tr>
+          <td>Community Book Club</td>
+          <td>Oct 8.</td>
+          <td>6:30 PM</td>
+          <td>Room A</td>
+          <td>Adults</td>
+        </tr>
+        <tr>
+          <td>Storytime</td>
+          <td>Oct. 10	</td>
+          <td>10:00 AM</td>
+          <td>Children's Room</td>
+          <td>Families</td>
+        </tr>
+        <tr>
+          <td>Genealogy Workshop</td>
+          <td>Oct. 12</td>
+          <td>2:00 PM</td>
+          <td>Room B</td>
+          <td>Adults</td>
+          <td><button type="button" class="details button" data-target="genealogy-workshop"> View Details </button></td>
+        </tr>
+        <tr>
+          <td>Intro to 3D Printing</td>
+          <td>Oct. 13</td>
+          <td>6:00 PM </td>
+          <td>Makerspace</td>
+          <td>Teens & Adults</td><td><button type="button" class="details button" data-target="intro-3d"> View Details </button></td>
+        </tr>
+        <tr>
+          <td>Local History Talk</td>
+          <td>Oct.18</td>
+          <td>1:00 PM</td>
+          <td>Auditorium</td>
+          <td>Everyone</td>
+          <td><button type="button" class="details button" data-target="local-history"> View Details </button></td>
+        </tr>
+      </body>
+    </table>
+  <div class="about">
+    <h2> Program Details</h2>
+    <p> Details go here...</p>
+  <div id="local-history" class="program-details" hidden> 
+    <h2>Local History Talk</h2>
+  <p> Some Details...</p>
+  </div>
+    <div id="intro-3d" class="program-details" hidden> 
+    <h2>Introduction to 3D printing</h2>
+  <p> Some Details...</p>
+  </div>
+    <div id="genealogy-workshop" class="program-details" hidden> 
+    <h2>Genealogy Workshop</h2>
+  <p> Some Details...</p>
+  </div>
+  </div>
+</section>
+    <script src="./script-11.js"></script>
+  </body>
