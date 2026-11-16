@@ -86,3 +86,19 @@ body{
     font-size: 0.75em;
   }
 }
+#confirmation-message{
+  border: solid black;
+  padding: 12px 24px;
+  background: #00B4D5; 
+  margin: 13px;
+  animation: fade-in 2s ease-out;
+}
+
+@keyframes fade-in{
+  from{
+    opacity 0;
+  }
+  to{
+    opacity 1;
+  }
+}
