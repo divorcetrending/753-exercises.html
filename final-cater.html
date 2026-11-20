@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Bug Bakery</title>
+    <link href="style.css"rel="stylesheet"/> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=New+Rocker&family=Pinyon+Script&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+  <div class="container" id="title">
+  <h1 id="title">Bug Bakery</h1>
+  <h2> Catering Form </h2>
+ <form id="form">
+  <div>
+    <label for="name"> Your Name </label>
+    <input type="text" name="name" placeholder="Your Name" id="name" required>
+  </div>
+  <div>
+    <label for="email"> Your Email </label>
+    <input type="email" name="email" placeholder="Your Email">
+  </div>
+  <div>
+    <label for="request">Type of Request</label>
+    <select name="request" id="type" required>
+      <option value="Select Here">Select Here</option>
+      <option value="Whole Cake/Pie">Whole Cake/Pie</option>
+      <option value="Sninamon Rolls">Sninamon Rolls</option>
+      <option value="Macaron">Macaron</option>
+      <option value="Custom">Custom</option>
+    </select>
+  </div>
+  <div>
+    <label for="description">Description</label>
+<input type="text" name="description" placeholder="Description" id="description">
+  </div>
+  <div>
+    <input type="submit" value="Register">
+  </div>
+</form> 
+  <div hidden id="confirmation-message"></div>
+<script src="./script-ca.js"> </script>
+  </div>
+</body>
